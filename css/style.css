@@ -1,0 +1,312 @@
+
+*{
+    margin: 0;
+    padding:0;
+}
+h1, h2, h3, h4, h5, h6, p, ul{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+
+    padding: 20 px 0;
+    
+    padding: 10px 0;
+    }
+    .header_wrapper{
+    
+    width: 80%;
+    
+    margin: auto;
+    
+    display: flex;
+    
+    justify-content: space-between;
+    
+    align-items: center;
+    }
+    .logo{
+    
+width: 20%;
+    
+margin: 10%;
+    
+display: flex;
+    }
+    .logo img{
+    
+    }
+    .unsubscribe{
+    
+    width: 20%;
+    }
+    .unsubscribe a{
+        
+    text-decoration: none;
+        
+    text-transform: capitalize;
+        
+    color: #97999b;
+    }
+
+    .banner{
+        background-image: url(../images/cosmos-8221004_1280.jpg);
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .banner h1{
+
+font-size: 40px;
+
+color: white;
+
+margin-bottom: 20px;
+}
+    .banner p{
+
+color: white;
+
+font-size: 20px;
+
+margin-bottom: 30px;
+
+text-transform: capitalize;
+}
+    .banner button{
+
+background: azure;
+
+padding: 15px 35px;
+
+border: 1px solid #df1818;
+
+border-radius: 3px;
+
+color: #E91E63;
+
+text-transform: capitalize;
+
+font-size: 16px;
+cursor: pointer;
+transition: .4s all ease-in-out;
+}
+.banner button:hover {
+    background: #97999b;
+}
+.banner button:hover i{
+    margin-right: 5px;
+}
+
+.feature_section{
+
+padding: 80px 0;
+}
+.feature_wrapper{
+   
+width: 80%;
+   
+margin: auto;
+}
+.feature{
+
+display: flex;
+
+justify-content: space-between;
+}
+.feature_item{
+
+width: 30%;
+
+text-align: center;
+}
+.feature_item h3{
+
+text-transform: capitalize;
+
+margin-bottom: 10px;
+
+font-family: 'Roboto', sans-serif;
+}
+
+.feature_item p{
+
+font-family: 'Roboto', sans-serif;
+}
+.icon{
+
+    height: 60px;
+    
+    width: 60px;
+    
+    background: #fb6e52;
+    
+    color: white;
+    
+    font-size: 35px;
+    
+    line-height: 60px;
+    
+    border-radius: 50%;
+    
+    margin: auto;
+    
+    margin-bottom: 20px;
+    }
+
+    .quote{
+
+width: 80%;
+
+margin: 40px auto;
+
+}
+.quote h1{
+
+text-align: center;
+
+color: #fb6e52;
+
+font-weight: 100;
+
+padding: 50px;
+
+font-style: italic;
+
+font-size: xx-large;
+
+font-family: 'Roboto', sans-serif;
+}
+.image_section{
+
+margin: 5%;
+
+display: flex;
+
+padding: 10px 0;
+
+justify-content: space-between;
+}
+.Picture{
+
+}
+.Picture img{
+
+width: 500px;
+}
+.Picture h3{
+
+text-align: center;
+
+margin-top: 5%;
+
+font-size: x-large;
+
+color: #292c34;
+
+font-family: 'Roboto', sans-serif;
+}
+.Picture h5{
+    
+text-align: center;
+    
+padding: 20px;
+    
+font-size: large;
+    
+color: #97999b;
+    
+font-family: 'Roboto', sans-serif;
+}
+
+.blog_section{
+
+width: 80%;
+
+margin: auto;
+}
+.blog_section h1{
+
+text-align: center;
+
+color: #292c34;
+
+font-family: 'Roboto';
+
+text-transform: uppercase;
+}
+.blog_pic{
+    
+width: 80%;
+    
+margin: 10%;
+    
+display: flex;
+    
+justify-content: space-between;
+}
+.blog_pic img{
+
+}
+.blog_pic h2{
+    
+text-align: left;
+    
+color: red;
+    
+padding: 30px 0;
+    
+text-transform: capitalize;
+    
+font-family: 'Roboto';
+}
+.blog_pic p{
+    
+font-family: 'Roboto';
+    
+text-align: left;
+}
+footer{
+
+}
+
+.footer_section{
+
+width: 100%;
+
+margin: auto;
+
+padding-bottom: 30px;
+
+background-color: #292c34;
+
+display: flex;
+
+justify-content: space-between;
+}
+
+.footer_section img{
+
+width: 20%;
+
+padding: 20px;
+}
+
+.footer_section h6{text-transform: capitalize;font-size: large;font-family: 'Roboto';margin-top: 40px;color: #797c82;}
+
+.social_icon{display: flex;align-items: center;padding: 70px;color: #ffffff;justify-content: space-between;}
+
+.social_icon ul{list-style: none;display: flex;}
+.social_icon ul li{
+    margin-right: 15px;
+}
+
+.social_icon ul li a{
+
+}
